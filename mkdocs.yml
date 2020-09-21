@@ -1,0 +1,5 @@
+site_name: 🍊-ECC
+theme:
+  name: material
+  palette:
+    primary: orange
