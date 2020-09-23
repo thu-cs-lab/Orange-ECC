@@ -1,7 +1,16 @@
 site_name: 🍊-ECC
 theme:
   name: material
+  features:
+    - instant
+    - tabs
   icon:
     logo: material/format-list-checks
   palette:
     primary: orange
+
+nav:
+  - 主页: index.md
+  - 猫咪词典:
+    - 词典索引: dict/index.md
+    - FPGA 相关: dict/fpga.md
