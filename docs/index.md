@@ -1,17 +1,30 @@
-# Welcome to MkDocs
+# 欢迎查阅 🍊-ECC
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+`🍊-ECC (Orange - Emergency Checklist Checklist)` 被定义为一个 **高阶紧急检查表 (Higher-Order Checklist)**，包含有一系列指向外部检查表或者资料的链接。当你遇到难以解决的问题的时候，请在咨询助教前，查阅本表中对应条目以及链接内容。如果问题还没有得到解决，再继续咨询助教。
 
-## Commands
+## 内容范围
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+本高阶检查表希望覆盖的范围定义为:
 
-## Project layout
+> 对清华大学计算机系大三培养方案中的系列专业课程有所帮助的、但是未曾在之前的课程中涉及过的知识，包括名词概念、基本工具的使用等等。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+我们只会包含在 Google 难以找到的信息。这一般代表这些知识不是帮助你入门某个工具、概念的知识，而是你遇到困难之后解决问题需要的知识。因此，使用本文档的大多数情况应该是 **紧急情况**。
+
+但是预期遇到的问题不会太过于复杂，尝试自己解决是很可行的，并且可以在这个过程中对概念、工具有更完善的了解。因此，这个检查表是 🍊 色的，不是红色检查表，也不是 🔵 色的。
+
+## 形式
+
+本文档包含两部分：
+
+- 检查表: 遇到棘手问题时推荐阅读的资料
+- 猫咪词典: 推荐的英文简写表述
+
+## 动机及名字来源
+
+某在贵系挂科三年惨遭退学的猫咪希望能够帮助同学们解决一些大三专业课程的门槛问题，也希望能让助教哥哥们少回答一些重复问题。
+
+名字来源来自人人爱的橙橙。
+
+## 内容分发协议
+
+本文档中的所有内容在 CC0 协议下贡献于公有领域。

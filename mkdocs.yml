@@ -1,5 +1,7 @@
 site_name: 🍊-ECC
 theme:
   name: material
+  icon:
+    logo: material/format-list-checks
   palette:
     primary: orange
