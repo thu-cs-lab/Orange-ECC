@@ -14,5 +14,5 @@ nav:
   - ECC:
     - Git: ecc/git.md
   - 猫咪词典:
-    - 词典索引: dict/index.md
+    - 导览: dict/index.md
     - FPGA 相关: dict/fpga.md
