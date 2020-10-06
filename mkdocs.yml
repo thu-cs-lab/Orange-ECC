@@ -2,8 +2,8 @@ site_name: 🍊-ECC
 theme:
   name: material
   features:
-    - instant
-    - tabs
+    - navigation.instant
+    - navigation.tabs
   icon:
     logo: material/format-list-checks
   palette:
@@ -11,6 +11,8 @@ theme:
 
 nav:
   - 主页: index.md
+  - ECC:
+    - Git: ecc/git.md
   - 猫咪词典:
     - 词典索引: dict/index.md
     - FPGA 相关: dict/fpga.md
