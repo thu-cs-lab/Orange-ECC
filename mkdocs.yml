@@ -16,3 +16,6 @@ nav:
   - 猫咪词典:
     - 导览: dict/index.md
     - FPGA 相关: dict/fpga.md
+
+extra_css:
+  - styles/index.css
