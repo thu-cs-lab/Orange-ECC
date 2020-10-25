@@ -39,6 +39,8 @@
     
     
     
+      <link rel="stylesheet" href="../../styles/index.css">
+    
     
       
     
@@ -617,7 +619,7 @@
 <h2 id="_5">你想把代码同步到一个云端分支，但是你发现...</h2>
 <h3 id="_6">你忘了</h3>
 <p>你现在在分支 <code>jiegetql</code>，进行了数次 commit，但是忽然发现你其实一直在 master 上操作。</p>
-<pre><code class="bash"># 首先，将本地的 jiegetql 分支同步到和本地 master 的相同位置
+<pre><code class="language-bash"># 首先，将本地的 jiegetql 分支同步到和本地 master 的相同位置
 [  master] &gt; git checkout jiegetql
 [jiegetql] &gt; git reset --hard master
 # Alternately: git merge --ff-only master
@@ -627,25 +629,21 @@
 [  master] &gt; git fetcl --all
 [  master] &gt; git reset --hard origin/master
 </code></pre>
-
 <h3 id="_7">你懒了</h3>
 <p>你想直接用本地的 <code>dirty</code> 分支推到 remote <code>meow</code> 上的 <code>kawaii</code> 分支。</p>
-<pre><code class="bash">[dirty] &gt; git push meow dirty:kawaii
+<pre><code class="language-bash">[dirty] &gt; git push meow dirty:kawaii
 </code></pre>
-
 <h2 id="_8">你想删除云端...</h2>
 <h3 id="_9">分支</h3>
 <p>你想删除 remote <code>meow</code> 上面的 <code>kawaii</code> 分支。</p>
-<pre><code class="bash">&gt; git push meow :kawaii
+<pre><code class="language-bash">&gt; git push meow :kawaii
 # Alternately: git push --delete meow kawaii
 </code></pre>
-
 <p>如果你很感兴趣 <code>:kawaii</code> 是什么意思，请<strong>仔细</strong>阅读 Git Book 的 Refspec 一节</p>
 <h3 id="tag">Tag</h3>
 <p>你想删除 remote <code>meow</code> 上面的 <code>kawaii</code> Tag。</p>
-<pre><code class="bash">&gt; git push meow :refs/tags/kawaii
+<pre><code class="language-bash">&gt; git push meow :refs/tags/kawaii
 </code></pre>
-
 <p>说真的，你都会用 Tag 了，为什么还在这里看这个文档？</p>
 <h2 id="reducted-reset">”[REDUCTED] 我 reset 错东西了！“</h2>
 <p>See: <code>git reflog</code></p>

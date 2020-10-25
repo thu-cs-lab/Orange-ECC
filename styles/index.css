@@ -1,0 +1,23 @@
+.md-content h2, .md-content h3, .md-content h4, .md-content h5, .md-content h6 {
+  padding-left: 10px;
+  border-left: var(--md-primary-fg-color) 5px solid;
+  padding: 0.4rem 20px;
+
+  position: relative;
+}
+
+.md-content h2:after, .md-content h3:after, .md-content h4:after, .md-content h5:after, .md-content h6:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: var(--md-primary-fg-color);
+  opacity: .2;
+  z-index: -1;
+}
+
+.md-content {
+  padding: 0 20px 60px 20px;
+}
