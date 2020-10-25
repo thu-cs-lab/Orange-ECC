@@ -23,17 +23,19 @@ commit 有一个 --amend 选项
 
 ### 你想留下修改历史
 
-See: `git revert`
+See: [`git revert`](https://git-scm.com/docs/git-revert)
 
 ### 它在好久之前
 
-See: `git rebase`
+See: [`git rebase`](https://git-scm.com/docs/git-rebase)
 
 推荐的使用方法是在 vim / Emacs 作为默认编辑器 (`core.editor`) 时，使用 `git rebase -i [THE COMMIT HASH]`。
 
 ## 本地 CI？
 
-See: `hooks`
+See: [`hooks`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+
+最常用的是 `pre-commit` 和 `pre-push`。非零返回值会打断 `commit` 或者 `push`。
 
 ## 你想把代码同步到一个云端分支，但是你发现...
 
@@ -49,7 +51,7 @@ See: `hooks`
 
 # 接下来，将 master 强制安排到和云端的 master 同样地地方
 [jiegetql] > git checkout master
-[  master] > git fetcl --all
+[  master] > git fetch --all
 [  master] > git reset --hard origin/master
 ```
 
@@ -60,6 +62,8 @@ See: `hooks`
 ```bash
 [dirty] > git push meow dirty:kawaii
 ```
+
+See: [Refspec](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec)
 
 ## 你想删除云端...
 
@@ -72,7 +76,7 @@ See: `hooks`
 # Alternately: git push --delete meow kawaii
 ```
 
-如果你很感兴趣 `:kawaii` 是什么意思，请**仔细**阅读 Git Book 的 Refspec 一节
+如果你很感兴趣 `:kawaii` 是什么意思，请**仔细**阅读 Git Book 的 [Refspec](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec) 一节
 
 ### Tag
 
@@ -84,6 +88,6 @@ See: `hooks`
 
 说真的，你都会用 Tag 了，为什么还在这里看这个文档？
 
-## ”[REDUCTED] 我 reset 错东西了！“
+## ”我[REDUCTED] 我 reset 错东西了！“
 
-See: `git reflog`
+See: [`git reflog`](https://git-scm.com/docs/git-reflog)

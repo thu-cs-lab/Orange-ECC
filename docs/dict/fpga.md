@@ -2,7 +2,7 @@
 
 ### ILA
 
-Inline logic analyzer
+Integrated logic analyzer
 
 See: <https://www.xilinx.com/products/intellectual-property/ila.html>
 
