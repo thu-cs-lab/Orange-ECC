@@ -379,7 +379,7 @@
       
         <li class="md-nav__item">
   <a href="#reducted-reset" class="md-nav__link">
-    ”[REDUCTED] 我 reset 错东西了！“
+    ”我[REDUCTED] 我 reset 错东西了！“
   </a>
   
 </li>
@@ -437,6 +437,18 @@
   <li class="md-nav__item">
     <a href="../../dict/fpga/" title="FPGA 相关" class="md-nav__link">
       FPGA 相关
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dict/networking/" title="网络相关" class="md-nav__link">
+      网络相关
     </a>
   </li>
 
@@ -573,7 +585,7 @@
       
         <li class="md-nav__item">
   <a href="#reducted-reset" class="md-nav__link">
-    ”[REDUCTED] 我 reset 错东西了！“
+    ”我[REDUCTED] 我 reset 错东西了！“
   </a>
   
 </li>
@@ -610,12 +622,13 @@
 <h3 id="_2">你刚刚提交它</h3>
 <p>commit 有一个 --amend 选项</p>
 <h3 id="_3">你想留下修改历史</h3>
-<p>See: <code>git revert</code></p>
+<p>See: <a href="https://git-scm.com/docs/git-revert"><code>git revert</code></a></p>
 <h3 id="_4">它在好久之前</h3>
-<p>See: <code>git rebase</code></p>
+<p>See: <a href="https://git-scm.com/docs/git-rebase"><code>git rebase</code></a></p>
 <p>推荐的使用方法是在 vim / Emacs 作为默认编辑器 (<code>core.editor</code>) 时，使用 <code>git rebase -i [THE COMMIT HASH]</code>。</p>
 <h2 id="ci">本地 CI？</h2>
-<p>See: <code>hooks</code></p>
+<p>See: <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks"><code>hooks</code></a></p>
+<p>最常用的是 <code>pre-commit</code> 和 <code>pre-push</code>。非零返回值会打断 <code>commit</code> 或者 <code>push</code>。</p>
 <h2 id="_5">你想把代码同步到一个云端分支，但是你发现...</h2>
 <h3 id="_6">你忘了</h3>
 <p>你现在在分支 <code>jiegetql</code>，进行了数次 commit，但是忽然发现你其实一直在 master 上操作。</p>
@@ -626,27 +639,28 @@
 
 # 接下来，将 master 强制安排到和云端的 master 同样地地方
 [jiegetql] &gt; git checkout master
-[  master] &gt; git fetcl --all
+[  master] &gt; git fetch --all
 [  master] &gt; git reset --hard origin/master
 </code></pre>
 <h3 id="_7">你懒了</h3>
 <p>你想直接用本地的 <code>dirty</code> 分支推到 remote <code>meow</code> 上的 <code>kawaii</code> 分支。</p>
 <pre><code class="language-bash">[dirty] &gt; git push meow dirty:kawaii
 </code></pre>
+<p>See: <a href="https://git-scm.com/book/en/v2/Git-Internals-The-Refspec">Refspec</a></p>
 <h2 id="_8">你想删除云端...</h2>
 <h3 id="_9">分支</h3>
 <p>你想删除 remote <code>meow</code> 上面的 <code>kawaii</code> 分支。</p>
 <pre><code class="language-bash">&gt; git push meow :kawaii
 # Alternately: git push --delete meow kawaii
 </code></pre>
-<p>如果你很感兴趣 <code>:kawaii</code> 是什么意思，请<strong>仔细</strong>阅读 Git Book 的 Refspec 一节</p>
+<p>如果你很感兴趣 <code>:kawaii</code> 是什么意思，请<strong>仔细</strong>阅读 Git Book 的 <a href="https://git-scm.com/book/en/v2/Git-Internals-The-Refspec">Refspec</a> 一节</p>
 <h3 id="tag">Tag</h3>
 <p>你想删除 remote <code>meow</code> 上面的 <code>kawaii</code> Tag。</p>
 <pre><code class="language-bash">&gt; git push meow :refs/tags/kawaii
 </code></pre>
 <p>说真的，你都会用 Tag 了，为什么还在这里看这个文档？</p>
-<h2 id="reducted-reset">”[REDUCTED] 我 reset 错东西了！“</h2>
-<p>See: <code>git reflog</code></p>
+<h2 id="reducted-reset">”我[REDUCTED] 我 reset 错东西了！“</h2>
+<p>See: <a href="https://git-scm.com/docs/git-reflog"><code>git reflog</code></a></p>
                 
               
               
