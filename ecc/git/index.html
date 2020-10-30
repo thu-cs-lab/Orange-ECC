@@ -154,6 +154,8 @@
 
       
         
+      
+        
   
   
     <li class="md-tabs__item">
@@ -220,19 +222,31 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href="../../meta/" title="使用方法" class="md-nav__link">
+      使用方法
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
-    <label class="md-nav__link" for="nav-2">
+    <label class="md-nav__link" for="nav-3">
       ECC
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="ECC" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
+      <label class="md-nav__title" for="nav-3">
         <span class="md-nav__icon md-icon"></span>
         ECC
       </label>
@@ -276,37 +290,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#its-your-first-time-here" class="md-nav__link">
-    It's your first time here.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    你盯着一个提交，感觉他很有问题，但是
+    您想修改一个提交的内容
   </a>
   
-    <nav class="md-nav" aria-label="你盯着一个提交，感觉他很有问题，但是">
+    <nav class="md-nav" aria-label="您想修改一个提交的内容">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    你刚刚提交它
+    这是您最近的一个提交，不保留这一提交
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    你想留下修改历史
+    这部是您最近的一个提交，不保留这一提交
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    它在好久之前
+    您想保留之前的提交
   </a>
   
 </li>
@@ -317,56 +324,56 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ci" class="md-nav__link">
-    本地 CI？
+  <a href="#push-commit-ci" class="md-nav__link">
+    在 push 或者 commit 之前进行特定检查，类似 CI
   </a>
   
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-remote-b" class="md-nav__link">
+    将本地 A 分支推至 remote 的 B 分支
+  </a>
+  
+    <nav class="md-nav" aria-label="将本地 A 分支推至 remote 的 B 分支">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a" class="md-nav__link">
+    您是错误地在本地的 A 分支上进行了提交
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a_1" class="md-nav__link">
+    A 上的提交是正确的，只是想推到另一个名字的分支上
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tag" class="md-nav__link">
+    需要删除云端的分支 / Tag
+  </a>
+  
+    <nav class="md-nav" aria-label="需要删除云端的分支 / Tag">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
-    你想把代码同步到一个云端分支，但是你发现...
-  </a>
-  
-    <nav class="md-nav" aria-label="你想把代码同步到一个云端分支，但是你发现...">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    你忘了
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    你懒了
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    你想删除云端...
-  </a>
-  
-    <nav class="md-nav" aria-label="你想删除云端...">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
     分支
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#tag" class="md-nav__link">
+  <a href="#tag_1" class="md-nav__link">
     Tag
   </a>
   
@@ -378,8 +385,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#reducted-reset" class="md-nav__link">
-    ”我[REDUCTED] 我 reset 错东西了！“
+  <a href="#reset-commit-hash" class="md-nav__link">
+    您进行了错误的分支删除 / reset，需要找回之前的 commit hash
   </a>
   
 </li>
@@ -403,14 +410,14 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
-    <label class="md-nav__link" for="nav-3">
+    <label class="md-nav__link" for="nav-4">
       猫咪词典
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="猫咪词典" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
+      <label class="md-nav__title" for="nav-4">
         <span class="md-nav__icon md-icon"></span>
         猫咪词典
       </label>
@@ -482,37 +489,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#its-your-first-time-here" class="md-nav__link">
-    It's your first time here.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    你盯着一个提交，感觉他很有问题，但是
+    您想修改一个提交的内容
   </a>
   
-    <nav class="md-nav" aria-label="你盯着一个提交，感觉他很有问题，但是">
+    <nav class="md-nav" aria-label="您想修改一个提交的内容">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    你刚刚提交它
+    这是您最近的一个提交，不保留这一提交
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    你想留下修改历史
+    这部是您最近的一个提交，不保留这一提交
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    它在好久之前
+    您想保留之前的提交
   </a>
   
 </li>
@@ -523,56 +523,56 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ci" class="md-nav__link">
-    本地 CI？
+  <a href="#push-commit-ci" class="md-nav__link">
+    在 push 或者 commit 之前进行特定检查，类似 CI
   </a>
   
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-remote-b" class="md-nav__link">
+    将本地 A 分支推至 remote 的 B 分支
+  </a>
+  
+    <nav class="md-nav" aria-label="将本地 A 分支推至 remote 的 B 分支">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a" class="md-nav__link">
+    您是错误地在本地的 A 分支上进行了提交
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a_1" class="md-nav__link">
+    A 上的提交是正确的，只是想推到另一个名字的分支上
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tag" class="md-nav__link">
+    需要删除云端的分支 / Tag
+  </a>
+  
+    <nav class="md-nav" aria-label="需要删除云端的分支 / Tag">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
-    你想把代码同步到一个云端分支，但是你发现...
-  </a>
-  
-    <nav class="md-nav" aria-label="你想把代码同步到一个云端分支，但是你发现...">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    你忘了
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    你懒了
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    你想删除云端...
-  </a>
-  
-    <nav class="md-nav" aria-label="你想删除云端...">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
     分支
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#tag" class="md-nav__link">
+  <a href="#tag_1" class="md-nav__link">
     Tag
   </a>
   
@@ -584,8 +584,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#reducted-reset" class="md-nav__link">
-    ”我[REDUCTED] 我 reset 错东西了！“
+  <a href="#reset-commit-hash" class="md-nav__link">
+    您进行了错误的分支删除 / reset，需要找回之前的 commit hash
   </a>
   
 </li>
@@ -604,7 +604,6 @@
                 
                 
                 <h1 id="git">Git 相关</h1>
-<h2 id="its-your-first-time-here">It's your first time here.</h2>
 <p>如果你无法回答以下三个问题，请先阅读 <a href="https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/">https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/</a> 以及 <a href="https://github.com/git/git/blob/master/Documentation/giteveryday.txt">https://github.com/git/git/blob/master/Documentation/giteveryday.txt</a>。</p>
 <ul>
 <li>Commit 的时候提示 <code>*** Please tell me who you are.</code> 应该怎么办？</li>
@@ -618,19 +617,23 @@
 <li>关于 Git 的具体实现，请查看 <a href="https://github.com/git/git/tree/master/Documentation">https://github.com/git/git/tree/master/Documentation</a></li>
 <li>Git 源码：<a href="https://github.com/git/git">https://github.com/git/git</a></li>
 </ul>
-<h2 id="_1">你盯着一个提交，感觉他很有问题，但是</h2>
-<h3 id="_2">你刚刚提交它</h3>
-<p>commit 有一个 --amend 选项</p>
-<h3 id="_3">你想留下修改历史</h3>
-<p>See: <a href="https://git-scm.com/docs/git-revert"><code>git revert</code></a></p>
-<h3 id="_4">它在好久之前</h3>
+<h2 id="_1">您想修改一个提交的内容</h2>
+<h3 id="_2">这是您最近的一个提交，不保留这一提交</h3>
+<p>commit 有一个 --amend 选项。</p>
+<pre><code class="language-bash">&gt; git add files/to/change
+&gt; git commit --amend
+</code></pre>
+<h3 id="_3">这部是您最近的一个提交，不保留这一提交</h3>
 <p>See: <a href="https://git-scm.com/docs/git-rebase"><code>git rebase</code></a></p>
 <p>推荐的使用方法是在 vim / Emacs 作为默认编辑器 (<code>core.editor</code>) 时，使用 <code>git rebase -i [THE COMMIT HASH]</code>。</p>
-<h2 id="ci">本地 CI？</h2>
+<h3 id="_4">您想保留之前的提交</h3>
+<p>See: <a href="https://git-scm.com/docs/git-revert"><code>git revert</code></a></p>
+<p>这会产生一个 "Reverted: xxx" 的新提交，内容是给定提交的逆。</p>
+<h2 id="push-commit-ci">在 push 或者 commit 之前进行特定检查，类似 CI</h2>
 <p>See: <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks"><code>hooks</code></a></p>
 <p>最常用的是 <code>pre-commit</code> 和 <code>pre-push</code>。非零返回值会打断 <code>commit</code> 或者 <code>push</code>。</p>
-<h2 id="_5">你想把代码同步到一个云端分支，但是你发现...</h2>
-<h3 id="_6">你忘了</h3>
+<h2 id="a-remote-b">将本地 A 分支推至 remote 的 B 分支</h2>
+<h3 id="a">您是错误地在本地的 A 分支上进行了提交</h3>
 <p>你现在在分支 <code>jiegetql</code>，进行了数次 commit，但是忽然发现你其实一直在 master 上操作。</p>
 <pre><code class="language-bash"># 首先，将本地的 jiegetql 分支同步到和本地 master 的相同位置
 [  master] &gt; git checkout jiegetql
@@ -642,24 +645,24 @@
 [  master] &gt; git fetch --all
 [  master] &gt; git reset --hard origin/master
 </code></pre>
-<h3 id="_7">你懒了</h3>
+<h3 id="a_1">A 上的提交是正确的，只是想推到另一个名字的分支上</h3>
 <p>你想直接用本地的 <code>dirty</code> 分支推到 remote <code>meow</code> 上的 <code>kawaii</code> 分支。</p>
 <pre><code class="language-bash">[dirty] &gt; git push meow dirty:kawaii
 </code></pre>
 <p>See: <a href="https://git-scm.com/book/en/v2/Git-Internals-The-Refspec">Refspec</a></p>
-<h2 id="_8">你想删除云端...</h2>
-<h3 id="_9">分支</h3>
+<h2 id="tag">需要删除云端的分支 / Tag</h2>
+<h3 id="_5">分支</h3>
 <p>你想删除 remote <code>meow</code> 上面的 <code>kawaii</code> 分支。</p>
 <pre><code class="language-bash">&gt; git push meow :kawaii
 # Alternately: git push --delete meow kawaii
 </code></pre>
 <p>如果你很感兴趣 <code>:kawaii</code> 是什么意思，请<strong>仔细</strong>阅读 Git Book 的 <a href="https://git-scm.com/book/en/v2/Git-Internals-The-Refspec">Refspec</a> 一节</p>
-<h3 id="tag">Tag</h3>
+<h3 id="tag_1">Tag</h3>
 <p>你想删除 remote <code>meow</code> 上面的 <code>kawaii</code> Tag。</p>
 <pre><code class="language-bash">&gt; git push meow :refs/tags/kawaii
 </code></pre>
 <p>说真的，你都会用 Tag 了，为什么还在这里看这个文档？</p>
-<h2 id="reducted-reset">”我[REDUCTED] 我 reset 错东西了！“</h2>
+<h2 id="reset-commit-hash">您进行了错误的分支删除 / reset，需要找回之前的 commit hash</h2>
 <p>See: <a href="https://git-scm.com/docs/git-reflog"><code>git reflog</code></a></p>
                 
               
@@ -679,7 +682,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../.." title="主页" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../meta/" title="使用方法" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -688,7 +691,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                主页
+                使用方法
               </div>
             </div>
           </a>
