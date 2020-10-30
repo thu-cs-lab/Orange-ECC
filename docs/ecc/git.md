@@ -1,7 +1,5 @@
 # Git 相关
 
-## It's your first time here.
-
 如果你无法回答以下三个问题，请先阅读 <https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/> 以及 <https://github.com/git/git/blob/master/Documentation/giteveryday.txt>。
 
 - Commit 的时候提示 `*** Please tell me who you are.` 应该怎么办？
@@ -15,31 +13,38 @@
 - 关于 Git 的具体实现，请查看 <https://github.com/git/git/tree/master/Documentation>
 - Git 源码：<https://github.com/git/git>
 
-## 你盯着一个提交，感觉他很有问题，但是
+## 您想修改一个提交的内容
 
-### 你刚刚提交它
+### 这是您最近的一个提交，不保留这一提交
 
-commit 有一个 --amend 选项
+commit 有一个 --amend 选项。
 
-### 你想留下修改历史
+```bash
+> git add files/to/change
+> git commit --amend
+```
 
-See: [`git revert`](https://git-scm.com/docs/git-revert)
-
-### 它在好久之前
+### 这部是您最近的一个提交，不保留这一提交
 
 See: [`git rebase`](https://git-scm.com/docs/git-rebase)
 
 推荐的使用方法是在 vim / Emacs 作为默认编辑器 (`core.editor`) 时，使用 `git rebase -i [THE COMMIT HASH]`。
 
-## 本地 CI？
+### 您想保留之前的提交
+
+See: [`git revert`](https://git-scm.com/docs/git-revert)
+
+这会产生一个 "Reverted: xxx" 的新提交，内容是给定提交的逆。
+
+## 在 push 或者 commit 之前进行特定检查，类似 CI
 
 See: [`hooks`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 
 最常用的是 `pre-commit` 和 `pre-push`。非零返回值会打断 `commit` 或者 `push`。
 
-## 你想把代码同步到一个云端分支，但是你发现...
+## 将本地 A 分支推至 remote 的 B 分支
 
-### 你忘了
+### 您是错误地在本地的 A 分支上进行了提交
 
 你现在在分支 `jiegetql`，进行了数次 commit，但是忽然发现你其实一直在 master 上操作。
 
@@ -55,7 +60,7 @@ See: [`hooks`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 [  master] > git reset --hard origin/master
 ```
 
-### 你懒了
+### A 上的提交是正确的，只是想推到另一个名字的分支上
 
 你想直接用本地的 `dirty` 分支推到 remote `meow` 上的 `kawaii` 分支。
 
@@ -65,7 +70,7 @@ See: [`hooks`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 
 See: [Refspec](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec)
 
-## 你想删除云端...
+## 需要删除云端的分支 / Tag
 
 ### 分支
 
@@ -88,6 +93,6 @@ See: [Refspec](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec)
 
 说真的，你都会用 Tag 了，为什么还在这里看这个文档？
 
-## ”我[REDUCTED] 我 reset 错东西了！“
+## 您进行了错误的分支删除 / reset，需要找回之前的 commit hash
 
 See: [`git reflog`](https://git-scm.com/docs/git-reflog)

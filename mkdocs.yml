@@ -11,6 +11,7 @@ theme:
 
 nav:
   - 主页: index.md
+  - 使用方法: meta.md
   - ECC:
     - Git: ecc/git.md
   - 猫咪词典:
@@ -20,3 +21,8 @@ nav:
 
 extra_css:
   - styles/index.css
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
