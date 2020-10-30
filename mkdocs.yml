@@ -1,4 +1,7 @@
 site_name: 🍊-ECC
+repo_url: https://github.com/thu-cs-lab/Orange-ECC
+repo_name: Orange-ECC
+
 theme:
   name: material
   features:

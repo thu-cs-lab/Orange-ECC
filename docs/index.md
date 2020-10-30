@@ -1,6 +1,6 @@
 # 欢迎查阅 :tangerine:-ECC
 
-`:tangerine:-ECC (Orange - Emergency Checklist Checklist)` 被定义为一个 **高阶紧急检查表 (Higher-Order Checklist)**，包含有一系列指向外部检查表或者资料的链接。当你遇到难以解决的问题的时候，请在咨询助教前，查阅本表中对应条目以及链接内容。如果问题还没有得到解决，再继续咨询助教。
+*:tangerine:-ECC (Orange - Emergency Checklist Checklist)* 被定义为一个 **高阶紧急检查表 (Higher-Order Checklist)**，包含有一系列指向外部检查表或者资料的链接。当你遇到难以解决的问题的时候，请在咨询助教前，查阅本表中对应条目以及链接内容。如果问题还没有得到解决，再继续咨询助教。
 
 ## 内容范围
 
