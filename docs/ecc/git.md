@@ -24,7 +24,7 @@ commit 有一个 --amend 选项。
 > git commit --amend
 ```
 
-### 这部是您最近的一个提交，不保留这一提交
+### 这不是您最近的一个提交，不保留这一提交
 
 See: [`git rebase`](https://git-scm.com/docs/git-rebase)
 
