@@ -10,6 +10,7 @@
 
 - 关于 Git 的使用技巧，请查看 <https://github.com/git-tips/tips>。链接内有中文版链接。
 - 关于 Git 的行为细节，请查看 <https://git-scm.com/book/en/v2>。链接内有 PDF / EPUB 下载。有中文版，但是推荐阅读英文版。
+- 关于 Git 的更多细节，请查看 <https://github.com/b1f6c1c4/learn-git-the-super-hard-way>。只有中文版。
 - 关于 Git 的具体实现，请查看 <https://github.com/git/git/tree/master/Documentation>
 - Git 源码：<https://github.com/git/git>
 
