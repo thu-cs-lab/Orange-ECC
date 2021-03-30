@@ -17,10 +17,13 @@ nav:
   - 使用方法: meta.md
   - ECC:
     - Git: ecc/git.md
+    - Linux: ecc/linux.md
+    - Vim: ecc/vim.md
   - 猫咪词典:
     - 导览: dict/index.md
     - FPGA 相关: dict/fpga.md
     - 网络相关: dict/networking.md
+    - Linux 使用相关: dict/linux.md
 
 extra_css:
   - styles/index.css
@@ -29,3 +32,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys

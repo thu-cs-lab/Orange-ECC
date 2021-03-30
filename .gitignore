@@ -1,1 +1,3 @@
 /site
+.*.sw[a-p]
+/env

@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.md-content h2:after, .md-content h3:after, .md-content h4:after, .md-content h5:after, .md-content h6:after {
+.md-content h2:after {
   content: '';
   position: absolute;
   bottom: 0;
